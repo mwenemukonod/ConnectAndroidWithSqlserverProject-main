@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.EnreDeclarantActivity">
+    <include
+        android:id="@+id/bar_allactivities"
+        layout="@layout/layout_app_bar"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtnom"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir nom "
+            android:inputType="text"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:id="@+id/edtpostnom"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir  postnom"
+            android:inputType="text"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:id="@+id/edtpostprenom"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir prenom "
+            android:inputType="text"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:id="@+id/edtage"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir age"
+            android:inputType="number"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:id="@+id/edttelephone"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir téléphone"
+            android:inputType="phone"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="12dp"
+            android:paddingTop="12dp"
+            android:drawablePadding="20dp"/>
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="#092c5c"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnenvoyer"
+            android:text="Créer" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pbbar" />
+    </LinearLayout>
+</LinearLayout>

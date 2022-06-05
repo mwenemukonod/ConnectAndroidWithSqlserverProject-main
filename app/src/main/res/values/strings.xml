@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GestionNaissanceDeces</string>
+    <string-array name="typeparent">
+        <item>selectionnez type parent</item>
+        <item>Biologique</item>
+        <item>Adoptif</item>
+    </string-array>
+    <string-array name="genre">
+        <item>selectionnez le genre</item>
+        <item>F</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="statut">
+        <item>selectionnez le statut d\'enfant</item>
+        <item>Vivant</item>
+        <item>mort-ne</item>
+    </string-array>
+    <string-array name="typedeclarent">
+        <item>selectionnez type declarant</item>
+        <item>Parent</item>
+        <item>Délégué</item>
+    </string-array>
+    <string-array name="fomctiomagent">
+        <item>selectionnez une fonction</item>
+        <item>Officer Etat-civil</item>
+        <item>Charger naissance</item>
+        <item>Charger Deces</item>
+    </string-array>
+</resources>

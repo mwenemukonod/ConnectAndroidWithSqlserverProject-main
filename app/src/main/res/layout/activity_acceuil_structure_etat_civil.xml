@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AcceuilStructureEtatCivilActivity">
+    <include
+        android:id="@+id/bar_allactivities"
+        layout="@layout/layout_app_bar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#092c5c"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnstructure"
+        android:text="Structure sanitaire" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#092c5c"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnetatcivil"
+        android:text="Etat-Civil" />
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Par DIEUDONNE KWAJA, L2 CSI"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+</LinearLayout>

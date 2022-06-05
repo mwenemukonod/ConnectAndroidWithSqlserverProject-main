@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Activities.EnreParentActivity">
+    <include
+        android:id="@+id/bar_allactivities"
+        layout="@layout/layout_app_bar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtnomp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir nom père"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtpostnomp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir  postnom père"
+            android:inputType="text"
+            android:paddingLeft="8dp" />
+        <EditText
+            android:id="@+id/edtprenomp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir prenom père"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtnomm"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/personimg"
+            android:hint="Saisir nom mère"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtpostnomm"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir postnom mère"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtprenom"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir prénom mère"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtprofessionp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir profession père"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtprofessionm"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir profession mère"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtlieunaisp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir lieu naissance père"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtlieunaism"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir lieu naissance mère"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtagepere"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir age père"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/edtagemere"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir age mère"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/edtnatpere"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir nationalitè père"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edtnatmere"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir nationalitè mère"
+            android:inputType="text"/>
+        <LinearLayout
+            android:layout_width="345dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:background="@drawable/editland"
+            android:layout_margin="2dp">
+            <Spinner
+                android:layout_width="345dp"
+                android:layout_height="40dp"
+                android:id="@+id/spinnertypeparent"
+                android:gravity="center">
+            </Spinner>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edttelephonep"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir tele père"
+            android:inputType="phone"/>
+        <EditText
+            android:id="@+id/edttelephonem"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir télé mère"
+            android:inputType="phone"/>
+        <EditText
+            android:id="@+id/edtprovince"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir province"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtvilledietri"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir vile ou distruct"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtcomnuneterrioire"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir commune ou territoire"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtqualitetire"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir quartier"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtcheferie"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir chefferie"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtavlocalite"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir avenue ou localité"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/edtnumero"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_icon"
+            android:drawableLeft="@drawable/bikimg"
+            android:hint="Saisir numéro parcelle"
+            android:inputType="number"/>
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="#092c5c"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnenvoyer"
+            android:text="Enregistrer" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pbbar" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

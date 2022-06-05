@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.CreationAgentStructureAdresseActivity">
+    <include
+        android:id="@+id/bar_allactivities"
+        layout="@layout/layout_app_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logoisc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ETATcIVIL-SOFT"
+            android:typeface="sans"
+            android:textSize="35sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <View
+            android:layout_gravity="center"
+            android:layout_width="340dp"
+            android:layout_height="2dp"
+            android:background="@color/verte"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/liajoutagent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/etatagentimg"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/verte"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AGENT "/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linajoutstructure"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/etatstructure"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/verte"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STRUCTURE"/>
+                </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linajoutactedece"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/actedeces"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/verte"
+                    android:textSize="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTE DECE"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linajoutactenaissance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="110dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/actenaissance"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/verte"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ACTE NAISSANCE"/>
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
