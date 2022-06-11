@@ -13,7 +13,7 @@ import id.irkwaja.gestionnaissancedeces.R;
 
 public class AcceuilStructureEtatCivilActivity extends AppCompatActivity {
 Button etatcivil,structure;
-    private Toolbar mtoolbar;
+   Toolbar mtoolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
